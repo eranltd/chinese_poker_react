@@ -35,7 +35,7 @@ import  Manager from '../Manager/Manager.component'
      return this;
  }
 
-
+//
 //#region shuffle the card
  const shuffle = (list) => list.sort(() => Math.random() - 0.5);
  //#endregion
