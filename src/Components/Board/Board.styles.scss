@@ -1,0 +1,36 @@
+
+
+.board-container{
+
+    min-height: 1200px;
+    height: 1200px;
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1px 1px;
+  grid-template-areas:
+    "manager player-1 player-1 player-1"
+    "manager . . ."
+    "manager player-2 player-2 player-2";
+
+
+}
+
+.board-manager{
+    grid-area: manager;
+background-color: blueviolet;
+}
+
+.first-player{
+    grid-area: player-1;
+    background-color: aqua;
+
+}
+
+.second-player{
+    grid-area: player-2;
+    background-color: brown;
+
+}
+
+

@@ -1,23 +1,24 @@
 import logo from './logo.svg';
+
+import Background from './casino-poker-bg.jpg';
+
+
 import './App.css';
+import BoardComponent from './Components/Board/Board.component'
+
+
+var sectionStyle = {
+  width: "100%",
+  height: "100%",
+  backgroundImage: `url(${Background})`
+};
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <section style={ sectionStyle }>
+      <BoardComponent/>
+      </section>
     </div>
   );
 }
