@@ -1,6 +1,6 @@
 # Chinese Poker Game (React, no redux)
 
-[a link](https://en.wikipedia.org/wiki/Chinese_poker)
+[wikipedia](https://en.wikipedia.org/wiki/Chinese_poker)
 
 ## Available Scripts
 
